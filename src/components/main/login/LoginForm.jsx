@@ -4,7 +4,11 @@ class LoginForm extends Component{
     render(){
       return (
         <div className="login">
-          Login
+          <h1>Hello Petter</h1>
+          <div className="container">
+            Keyword: <input type="text" name="keyword" />
+            <button className="btn btn-success" >Once in a life time!!!!</button>
+          </div>
         </div>
       );
     }

@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
-import LoginForm from './components/main/login/LoginForm';
-import Header from './components/main/home/Header';
+import StreetApp from './components/main/StreetApp';
 import './App.css';
+import './bootstrap.css'
 
 class App extends Component{
   render(){
     return (
       <div className="App">
-        <Header></Header>
-        I want to be the very best, Like no one ever was, To catch them is my real test, To train them is my cause
-        <LoginForm></LoginForm>
+        <StreetApp></StreetApp>
       </div>
     );
   }
