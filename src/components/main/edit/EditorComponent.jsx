@@ -4,6 +4,13 @@ class EditorComponent extends Component{
     render(){
         return(
             <div className="EditorComponent">
+            render blogs
+            update option
+                updateBlogComponent
+            delete
+                are you sure
+            new
+                newBlogComponent
 
             </div>
         )
